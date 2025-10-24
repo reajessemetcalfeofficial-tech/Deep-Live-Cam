@@ -81,7 +81,7 @@ echo 5. OpenVINO (Intel)
 echo 6. None
 set /p choice="Enter your choice (1-6): "
 
-if "%choice%"=="1" (
+if "%choice%"=="1" (play
     echo Installing CUDA dependencies...
     pip uninstall -y onnxruntime onnxruntime-gpu
     pip install onnxruntime-gpu==1.16.3
