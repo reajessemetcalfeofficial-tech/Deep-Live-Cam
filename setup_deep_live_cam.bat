@@ -120,3 +120,5 @@ if defined exec_provider (
 )
 
 pause
+setup
+
